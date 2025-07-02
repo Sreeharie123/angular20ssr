@@ -10,6 +10,5 @@ import { RouterOutlet } from '@angular/router';
 export class App implements OnInit {
 
   ngOnInit(): void {
-      console.log("App Initialized")
   }
 }

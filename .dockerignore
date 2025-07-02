@@ -1,0 +1,37 @@
+# Node modules (we install them fresh in Docker)
+node_modules
+dist
+
+# Build artifacts
+*.log
+*.tsbuildinfo
+.angular
+coverage
+tmp
+temp
+
+# Environment & config files (optional to ignore)
+.env
+.env.*
+*.local
+*.bak
+
+# OS / editor / IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode
+.idea
+
+# NPM/Yarn cache
+.npm
+.yarn
+.pnpm-store
+
+# Git
+.git
+.gitignore
+
+# Docker ignore itself
+.dockerignore
